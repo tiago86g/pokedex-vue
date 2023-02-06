@@ -6,7 +6,7 @@
 
 <script lang="ts" setup></script>
 
-<style lang="postcss" module>
+<style module>
 .container {
   height: 100%;
   padding: 0 20px;

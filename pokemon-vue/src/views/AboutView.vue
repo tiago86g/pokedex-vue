@@ -5,7 +5,7 @@
 </template>
 
 <script lang="ts" setup>
-import Container from '../components/layout/Container.vue';
+import Container from "../components/layout/Container.vue";
 </script>
 
 <style lang="postcss" module></style>

@@ -1,10 +1,12 @@
-import fetch from './fetch';
+import fetch from "./fetch";
 
 export default {
   async getPokemonById(id: string) {
-    return await fetch().get(`/${id}`);
+    const result = await fetch().get(`/${id}`);
+    return result.data;
   },
-  async getAllPokemons() {
-    return await fetch().get('/?limit=649');
+  async getPokemonList() {
+    const result = await fetch().get("/?limit=1009");
+    return result.data;
   },
 };
